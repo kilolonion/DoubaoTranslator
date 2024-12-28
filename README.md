@@ -1,6 +1,6 @@
 # DoubaoTranslator 文档
 
-[简体中文](doubaotrans.md) | [English](doubaotrans_en.md)
+[简体中文](README.md) | [English](README_en.md)
 
 ## 目录
 1. [简介](#简介)
