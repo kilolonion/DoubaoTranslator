@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "test": "初始化-fast模式",
+      "status": "success",
+      "duration": 0.510103702545166,
+      "config": {
+        "api_key": "cc58299b...",
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "model": "ep-20241114093010-dm56w",
+        "performance_config": {
+          "max_retries": 2,
+          "retry_min_wait": 0.5,
+          "retry_max_wait": 2,
+          "cache_ttl": 3600,
+          "min_request_interval": 0.1,
+          "max_tokens": 100,
+          "temperature": 0.7,
+          "timeout": 10
+        },
+        "cache_ttl": 3600,
+        "min_request_interval": 0.1,
+        "max_retries": 2
+      }
+    },
+    {
+      "test": "初始化-balanced模式",
+      "status": "success",
+      "duration": 11.9881112575531,
+      "config": {
+        "api_key": "cc58299b...",
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "model": "ep-20241114093010-dm56w",
+        "performance_config": {
+          "max_retries": 3,
+          "retry_min_wait": 1,
+          "retry_max_wait": 4,
+          "cache_ttl": 7200,
+          "min_request_interval": 0.2,
+          "max_tokens": 200,
+          "temperature": 0.5,
+          "timeout": 20
+        },
+        "cache_ttl": 7200,
+        "min_request_interval": 0.2,
+        "max_retries": 3
+      }
+    },
+    {
+      "test": "初始化-accurate模式",
+      "status": "success",
+      "duration": 12.217260360717773,
+      "config": {
+        "api_key": "cc58299b...",
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "model": "ep-20241114093010-dm56w",
+        "performance_config": {
+          "max_retries": 5,
+          "retry_min_wait": 2,
+          "retry_max_wait": 8,
+          "cache_ttl": 14400,
+          "min_request_interval": 0.5,
+          "max_tokens": 500,
+          "temperature": 0.3,
+          "timeout": 30
+        },
+        "cache_ttl": 14400,
+        "min_request_interval": 0.5,
+        "max_retries": 5
+      }
+    },
+    {
+      "test": "基础翻译-中译英-简单",
+      "status": "success",
+      "duration": 0.24643921852111816,
+      "input": "你好世界",
+      "output": "Hello, World! / Hi, World!",
+      "quality_score": 6.5
+    },
+    {
+      "test": "基础翻译-中译英-复杂",
+      "status": "success",
+      "duration": 0.45075345039367676,
+      "input": "人工智能正在改变世界",
+      "output": "Artificial intelligence is changing the world.",
+      "quality_score": 4.6
+    },
+    {
+      "test": "基础翻译-英译中-简单",
+      "status": "success",
+      "duration": 0.41803884506225586,
+      "input": "Hello, world!",
+      "output": "你好，世界！",
+      "quality_score": 0.46153846153846156
+    },
+    {
+      "test": "基础翻译-英译中-复杂",
+      "status": "success",
+      "duration": 1.264570951461792,
+      "input": "Artificial Intelligence is transforming the world",
+      "output": "人工智能正在改变世界",
+      "quality_score": 0.20408163265306123
+    },
+    {
+      "test": "基础翻译-日译英",
+      "status": "success",
+      "duration": 0.4722015857696533,
+      "input": "こんにちは世界",
+      "output": "Hello, World! / Hi, World!",
+      "quality_score": 3.7142857142857144
+    },
+    {
+      "test": "基础翻译-韩译英",
+      "status": "success",
+      "duration": 0.3527035713195801,
+      "input": "안녕하세요 세상",
+      "output": "Hello World",
+      "quality_score": 1.375
+    },
+    {
+      "test": "整体测试",
+      "status": "failed",
+      "error": "'max_workers'"
+    }
+  ],
+  "metrics": {
+    "response_times": {
+      "average": 3.1022425492604575,
+      "min": 0.24643921852111816,
+      "max": 12.217260360717773,
+      "median": 0.4722015857696533
+    },
+    "token_usage": {
+      "average": 0,
+      "total": 0
+    },
+    "error_rates": {},
+    "quality_scores": {
+      "average": 2.8091509680795395,
+      "min": 0.20408163265306123,
+      "max": 6.5
+    }
+  }
+}

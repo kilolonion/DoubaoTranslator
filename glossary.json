@@ -1,0 +1,12 @@
+{
+  "AI": {
+    "en": "Artificial Intelligence",
+    "zh": "人工智能",
+    "ja": "人工知能"
+  },
+  "ML": {
+    "en": "Machine Learning",
+    "zh": "机器学习",
+    "ja": "機械学習"
+  }
+}
