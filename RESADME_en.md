@@ -1,6 +1,6 @@
 # DoubaoTranslator Documentation
 
-[简体中文](doubaotrans.md) | [English](doubaotrans_en.md)
+[简体中文](README.md) | [English](README_en.md)
 
 ## Table of Contents
 1. [Introduction](#introduction)
