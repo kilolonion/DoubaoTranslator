@@ -378,3 +378,21 @@ print(f"Style: {scores['style']}")
    - Choose appropriate performance mode
    - Set reasonable context window size
    - Save glossary regularly
+
+## Disclaimer
+
+1. This project is an unofficial wrapper based on the Doubao API and is not affiliated with Doubao.
+2. To use this project, you need to apply for a Doubao API key and comply with Doubao's terms of service.
+3. The copyrights of the third-party libraries used in this project belong to their original authors.
+
+## Dependency Declaration
+
+This project uses the following open-source projects:
+- aiohttp (Apache 2.0)
+- httpx (BSD)
+- openai (MIT)
+- tenacity (Apache 2.0)
+
+## License
+
+This project is open-sourced under the MIT License.

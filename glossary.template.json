@@ -1,0 +1,49 @@
+{
+    "AI": {
+        "en": "Artificial Intelligence",
+        "zh": "人工智能",
+        "ja": "人工知能",
+        "ko": "인공지능",
+        "fr": "Intelligence Artificielle",
+        "description": "计算机科学的一个分支，致力于开发能模拟人类智能的系统",
+        "category": "technology",
+        "usage_notes": "在技术文档中使用全称，在普通文本中可使用缩写"
+    },
+    "ML": {
+        "en": "Machine Learning",
+        "zh": "机器学习",
+        "ja": "機械学習",
+        "ko": "기계 학습",
+        "fr": "Apprentissage Automatique",
+        "description": "人工智能的一个子领域，专注于让计算机系统从经验中学习",
+        "category": "technology",
+        "usage_notes": "通常作为AI的一个具体应用领域来讨论"
+    },
+    "API": {
+        "en": "Application Programming Interface",
+        "zh": "应用程序接口",
+        "ja": "アプリケーションプログラミングインターフェース",
+        "ko": "응용 프로그램 인터페이스",
+        "fr": "Interface de Programmation d'Application",
+        "description": "软件组件之间的交互接口",
+        "category": "programming",
+        "usage_notes": "技术文档中通常使用缩写形式"
+    },
+    "template_entry": {
+        "en": "English Term",                 // 英文术语
+        "zh": "中文术语",                     // 中文术语
+        "ja": "日本語の用語",                 // 日语术语
+        "ko": "한국어 용어",                  // 韩语术语
+        "fr": "Terme Français",              // 法语术语
+        "es": "Término Español",             // 西班牙语术语
+        "ru": "Русский термин",              // 俄语术语
+        "de": "Deutscher Begriff",           // 德语术语
+        "it": "Termine Italiano",            // 意大利语术语
+        "description": "术语的详细描述",       // 可选：术语的详细解释
+        "category": "术语类别",               // 可选：术语所属类别
+        "usage_notes": "使用说明",            // 可选：使用注意事项
+        "synonyms": ["同义词1", "同义词2"],    // 可选：同义词列表
+        "context": "使用场景",                // 可选：适用的上下文
+        "avoid": "避免使用的场景"             // 可选：不适用的场景
+    }
+} 
