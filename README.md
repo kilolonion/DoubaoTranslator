@@ -30,6 +30,32 @@ pip install doubaotrans
 
 ## API 文档
 
+### 获取 API 凭据
+
+在使用 DoubaoTranslator 之前，您需要从火山引擎获取 API 凭据：
+
+1. 注册和登录：
+   - 访问[火山引擎控制台](https://console.volcengine.com/)
+   - 如果没有账号，请先注册
+
+2. 获取 API Key：
+   - 在控制台导航至"API Key 管理"
+   - 点击"创建 API Key"生成新的凭据
+   - 保存您的 Access Key ID 和 Secret Access Key
+
+3. 开通豆包大模型服务：
+   - 在控制台进入"火山方舟大模型服务平台"
+   - 开通豆包大模型服务
+
+4. 创建推理接入点：
+   - 进入"模型接入"页面
+   - 点击"创建推理接入点"
+   - 选择所需模型（如 Doubao-pro-32k）
+   - 配置相关参数
+   - 保存接入点 ID（Endpoint ID）
+
+请妥善保管这些凭据信息，避免在公开场合泄露。
+
 ### 初始化选项
 
 ```python
