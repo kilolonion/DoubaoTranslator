@@ -57,7 +57,7 @@ pip install doubaotrans
    - 配置相关参数
    - 保存接入点 ID（Endpoint ID）
 
-详情查看[API Key 管理](https://console.volcengine.com/iam/keymanage/)
+详情查看[API Key 管理](https://www.volcengine.com/docs/82379/1361424)
 
 切勿在代码仓库或公开场合分享您的 API Key。
 
