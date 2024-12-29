@@ -57,35 +57,9 @@ Before using DoubaoTranslator, you need to obtain API credentials from Volcengin
    - Configure parameters as needed
    - Save the Endpoint ID
 
-For detailed information, please refer to [API Key Management](https://console.volcengine.com/iam/keymanage/).
+For detailed information, please refer to [API Management](https://console.volcengine.com/iam/keymanage/).
 
 Never share your API Key publicly or include it in version control systems.
-
-### Getting API Credentials
-
-Before using DoubaoTranslator, you need to obtain API credentials from Volcengine:
-
-1. Register and Login:
-   - Visit [Volcengine Console](https://console.volcengine.com/)
-   - Create an account if you haven't already
-
-2. Get API Key:
-   - Navigate to "API Key Management" in the console
-   - Click "Create API Key" to generate new credentials
-   - Save your Access Key ID and Secret Access Key
-
-3. Enable Doubao Model Service:
-   - Go to "Volcengine AI Platform" in the console
-   - Enable the Doubao model service
-
-4. Create Inference Endpoint:
-   - Go to "Model Access" page
-   - Click "Create Inference Endpoint"
-   - Select desired model (e.g., Doubao-pro-32k)
-   - Configure parameters as needed
-   - Save the Endpoint ID
-
-Keep these credentials secure and never share them publicly.
 
 ### Initialization Options
 
