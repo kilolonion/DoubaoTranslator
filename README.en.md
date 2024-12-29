@@ -32,6 +32,37 @@ pip install doubaotrans
 
 ### Getting API Credentials
 
+Before using DoubaoTranslator, you need to obtain API credentials from Volcengine. Follow these steps carefully:
+
+1. Register and Login:
+   - Visit [Volcengine Console](https://console.volcengine.com/)
+   - Create an account if you haven't already
+
+2. Get API Key:
+   - Open the [API Key Management](https://console.volcengine.com/iam/keymanage/) page
+   - Click "Create API Key"
+   - (Optional) Switch project space if you're using a shared account
+   - Enter a name for your API Key
+   - Save the API Key securely - it will be used for authentication
+
+3. Enable Doubao Model Service:
+   - Go to "Volcengine AI Platform" in the console
+   - Enable the Doubao model service
+   - Note: Keep your API Key confidential to prevent security risks or financial losses
+
+4. Create Inference Endpoint:
+   - Go to "Model Access" page
+   - Click "Create Inference Endpoint"
+   - Select desired model (e.g., Doubao-pro-32k)
+   - Configure parameters as needed
+   - Save the Endpoint ID
+
+For detailed information, please refer to [API Key Management](https://console.volcengine.com/iam/keymanage/).
+
+Never share your API Key publicly or include it in version control systems.
+
+### Getting API Credentials
+
 Before using DoubaoTranslator, you need to obtain API credentials from Volcengine:
 
 1. Register and Login:
