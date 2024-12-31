@@ -1,4 +1,4 @@
-# DoubaoTranslator: Professional Translation Toolkit Based on Doubao API
+# DoubaoTranslator: Professional Translation Toolkit Based on Doubao (APITheoretically, this tool supports all AI models compatible with the OpenAI API)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.2.2-green.svg)](https://pypi.org/project/doubaotrans/)
