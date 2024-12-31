@@ -1,4 +1,4 @@
-# DoubaoTranslator: 基于豆包 API 的专业翻译工具包
+# DoubaoTranslator: 基于豆包 API 的专业翻译工具包(理论上支持所有支持openai接口的ai模型)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.2.2-green.svg)](https://pypi.org/project/doubaotrans/)
